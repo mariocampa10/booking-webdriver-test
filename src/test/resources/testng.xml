@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BookingWebdriverTest">
+    <listeners>
+        <listener class-name="utils.Listener"></listener>
+    </listeners>
+
+    <test name="Search tests">
+        <classes>
+            <class name="test.SearchTest"/>
+        </classes>
+    </test>
+</suite>
